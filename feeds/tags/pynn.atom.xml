@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The NeuroFedora Blog - PyNN</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/tags/pynn.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-02-02T18:21:32+00:00</updated><entry><title>NeuroFedora update: 2019 week 5</title><link href="https://neurofedora.github.io/2019/02/02/neurofedora-update-2019-week-5.html" rel="alternate"></link><published>2019-02-02T18:21:32+00:00</published><updated>2019-02-02T18:21:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-02-02:/2019/02/02/neurofedora-update-2019-week-5.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 5th week of 2019: more software
+updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;In the last week, we've continued to make progress on packages:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;The &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1662526"&gt;neuron&lt;/a&gt; review should be done in a few days. We can then begin on the
+MPI versions, and Python bindings.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/190"&gt;arbor&lt;/a&gt; is still a WIP. Here's a pre-print the developers published recently
+announcing it: &lt;a class="reference external" href="https://arxiv.org/abs/1901.07454"&gt;https://arxiv.org/abs/1901.07454&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Version 1 of the Brian Simulator is now available in the &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/copr/"&gt;NeuroFedora extras
+COPR repository&lt;/a&gt;. This version is in maintenance mode only and users should
+prefer the new &lt;a class="reference external" href="https://apps.fedoraproject.org/packages/python-brian2"&gt;Brian2&lt;/a&gt; simulator for their work. We only make version 1
+available because &lt;a class="reference external" href="https://github.com/NeuralEnsemble/PyNN/pull/617"&gt;PyNN&lt;/a&gt; currently does not support version 2---that is a work
+in progress. Version 1 of the simulator will not be provided for Fedora
+releases after 29 since Fedora 30+ &lt;a class="reference external" href="https://fedoraproject.org/wiki/Changes/Mass_Python_2_Package_Removal"&gt;are moving to Python3 only&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Software"></category><category term="Blog"></category><category term="Arbor"></category><category term="Neuron"></category><category term="Brian"></category><category term="PyNN"></category><category term="Python3"></category></entry></feed>
