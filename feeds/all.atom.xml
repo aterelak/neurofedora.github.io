@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-02-02T18:21:32+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 5</title><link href="https://neurofedora.github.io/2019/02/02/neurofedora-update-2019-week-5.html" rel="alternate"></link><published>2019-02-02T18:21:32+00:00</published><updated>2019-02-02T18:21:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-02-02:/2019/02/02/neurofedora-update-2019-week-5.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 5th week of 2019: more software
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-02-17T13:32:27+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 7</title><link href="https://neurofedora.github.io/2019/02/17/neurofedora-update-2019-week-7.html" rel="alternate"></link><published>2019-02-17T13:32:27+00:00</published><updated>2019-02-17T13:32:27+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 7th week of 2019: more software
+updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We continue to make progress on software that is to be included in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/neuron"&gt;neuron&lt;/a&gt; was approved for inclusion and is now in testing. This is without MPI
+support, and does not currently contain Python bindings. These are both being
+worked on now.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/auryn"&gt;auryn&lt;/a&gt; was approved for inclusion. While it builds fine on &lt;code&gt;x86_64,
+i686, ppc64&lt;/code&gt;, it does not build on other secondary architectures:
+&lt;code&gt;armv7hl, aarch64, s390x&lt;/code&gt;. So, we have filed a &lt;a class="reference external" href="https://github.com/fzenke/auryn/issues/33"&gt;ticket upstream&lt;/a&gt; to clarify if these are
+supported. You can read more about the architectures Fedora supports &lt;a class="reference external" href="https://fedoraproject.org/wiki/Architectures"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;various other packages were updated to their latest versions: &lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=python-fsleyes"&gt;fsleyes&lt;/a&gt;, &lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=python-pydicom"&gt;pydicom&lt;/a&gt;, and
+&lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=python-nibabel"&gt;nibabel&lt;/a&gt;. You
+can test them by enabling the updates-testing repository and give feedback on
+these updates (documented &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing"&gt;here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A number of packages need to be updated to their latest versions.
+Unfortunately, a few of these bundle software that must be removed, so it
+takes more time than simple updates: &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1674578"&gt;InsightToolkit&lt;/a&gt;, &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1371436"&gt;vxl&lt;/a&gt;, &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1674946"&gt;gdcm&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We announced NeuroFedora on &lt;a class="reference external" href="https://neurostars.org/t/neurofedora-free-software-for-free-neuroscience/3594"&gt;Neurostars&lt;/a&gt;
+today also.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other news, &lt;a class="reference external" href="https://groups.google.com/forum/#!topic/neuralensemble/a4xnnPQ7dpM"&gt;PyNN is being considered as an INCF standard/best practice&lt;/a&gt;. If you
+do use it, please provide your comments.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Software"></category><category term="Blog"></category><category term="Neuron"></category><category term="PyNN"></category><category term="Auryn"></category></entry><entry><title>NeuroFedora update: 2019 week 5</title><link href="https://neurofedora.github.io/2019/02/02/neurofedora-update-2019-week-5.html" rel="alternate"></link><published>2019-02-02T18:21:32+00:00</published><updated>2019-02-02T18:21:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-02-02:/2019/02/02/neurofedora-update-2019-week-5.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 5th week of 2019: more software
 updates.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
 &lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
