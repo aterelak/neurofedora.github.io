@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-02-17T13:32:27+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 7</title><link href="https://neurofedora.github.io/2019/02/17/neurofedora-update-2019-week-7.html" rel="alternate"></link><published>2019-02-17T13:32:27+00:00</published><updated>2019-02-17T13:32:27+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 7th week of 2019: more software
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-03-25T11:18:32+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 13</title><link href="https://neurofedora.github.io/2019/03/25/neurofedora-update-2019-week-13.html" rel="alternate"></link><published>2019-03-25T11:18:32+00:00</published><updated>2019-03-25T11:18:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-03-25:/2019/03/25/neurofedora-update-2019-week-13.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 13th week of 2019: more software
+updates, future plans, next team meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;More software has been submitted for review and included in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. We
+keep making steady progress on that front. Please keep an eye on our
+documentation to see what new tools are now available for use in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We have also submitted an abstract for &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019"&gt;CNS*2019&lt;/a&gt; to present at poster at the conference
+introducing NeuroFedora to the computational neuroscience research community.
+So, we do hope to see you there (Ankur will be at &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019"&gt;CNS*2019&lt;/a&gt; anyway).&lt;/p&gt;
+&lt;p&gt;We are always looking for more people to join the team. At the moment, we are
+looking for people to fill these two roles:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Spin/Lab master: to have a ready-to-use downloadable ISO, we'd like to work
+on a Fedora based NeuroFedora &amp;quot;lab&amp;quot;. We are looking for a &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/neuro-sig&amp;#64;lists.fedoraproject.org/message/5DAKTDPJRRSLCB76EGYH7K5RACEFYTMU/"&gt;spin/lab master&lt;/a&gt;
+to lead this goal.  &lt;a class="reference external" href="https://labs.fedoraproject.org/"&gt;(What is a Fedora spin/lab?)&lt;/a&gt;. The skills needed for this task are:&lt;ul&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; and &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; based workflows: &lt;a class="reference external" href="https://pagure.io"&gt;Pagure&lt;/a&gt;/&lt;a class="reference external" href="https://gitlab.com"&gt;Gitlab&lt;/a&gt;/&lt;a class="reference external" href="https://github.com"&gt;Github&lt;/a&gt;/&lt;a class="reference external" href="https://bitbucket.com"&gt;Bitbucket&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;knowledge of how &lt;a class="reference external" href="https://dnf.readthedocs.io/en/latest/"&gt;DNF&lt;/a&gt; works.&lt;/li&gt;
+&lt;li&gt;knowledge of the Fedora Spin process and associated tools (kickstart files, for example).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Documentation master: given how important end-user documentation is, we are
+looking for a documentation master to ensure ours is up to the mark. For this
+role, the required skills are:&lt;ul&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; and &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; based workflows: &lt;a class="reference external" href="https://pagure.io"&gt;Pagure&lt;/a&gt;/&lt;a class="reference external" href="https://gitlab.com"&gt;Gitlab&lt;/a&gt;/&lt;a class="reference external" href="https://github.com"&gt;Github&lt;/a&gt;/&lt;a class="reference external" href="https://bitbucket.com"&gt;Bitbucket&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="http://asciidoc.org/"&gt;Asciidoc&lt;/a&gt; and &lt;a class="reference external" href="https://antora.org/"&gt;Antora&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="https://www.docker.com/"&gt;Docker&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If any of these roles interest you, please get in touch with the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;
+team. You needn't have these skills already---you can learn these from the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team as you go along.&lt;/p&gt;
+&lt;p&gt;The next Open NeuroFedora meeting is on the &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+team+meeting+%232&amp;amp;iso=20190326T22&amp;amp;p1=136&amp;amp;ah=1"&gt;26th of March at 2200GMT/UTC&lt;/a&gt;.
+We will discuss our progress, and what we need to do next. It is time we
+started preparing for &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019"&gt;CNS*2019&lt;/a&gt; too, so we will discuss what software we
+would like to showcase there.&lt;/p&gt;
+&lt;p&gt;The meeting will be held on our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;IRC/Telegram channel&lt;/a&gt;.
+It is open for all to attend. Please pop by!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Software"></category><category term="Blog"></category><category term="Documentation"></category><category term="Fedora Lab"></category><category term="Fedora Spin"></category><category term="Contribution&#10;opportunity"></category></entry><entry><title>NeuroFedora update: 2019 week 7</title><link href="https://neurofedora.github.io/2019/02/17/neurofedora-update-2019-week-7.html" rel="alternate"></link><published>2019-02-17T13:32:27+00:00</published><updated>2019-02-17T13:32:27+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 7th week of 2019: more software
 updates.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
 &lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
