@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  How NeuroFedora provides software to its users | NeuroFedora: Blog
+</title>
+  <link rel="canonical" href="https://neurofedora.github.io/drafts/how-neurofedora-provides-software-to-its-users.html">
+
+
+  <link rel="stylesheet" href="https://neurofedora.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://neurofedora.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://neurofedora.github.io/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://neurofedora.github.io/feeds/all.atom.xml">
+  
+  <meta name="description" content="This post summarises the process that the NeuroFedora package maintainers follow to keep the software set up to date.">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-3">
+      <a href="https://neurofedora.github.io/">
+        <img class="img-fluid rounded" src=https://neurofedora.github.io/NeuroFedoraLogo01-title.png alt="NeuroFedora: Blog">
+      </a>
+    </div>
+  <div class="col-sm-9">
+    <h1 class="title"><a href="https://neurofedora.github.io/">NeuroFedora: Blog</a></h1>
+      <p class="text-muted">Free Software for Free Neuroscience</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="/blog_index.html">Posts</a></li>
+          <li class="list-inline-item"><a href="https://neuro.fedoraproject.org">Documentation</a></li>
+            <li class=" list-inline-item text-muted">|</li>
+          <li class="list-inline-item"><a class="fas fa-mail-bulk" href="https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-comments" href="https://webchat.freenode.net/?channels=#fedora-neuro" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-telegram" href="https://t.me/NeuroFedora" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-code-branch" href="https://pagure.io/neuro-sig/NeuroFedora" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/neurofedora" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-fedora" href="https://getfedora.org" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="/feeds/all.atom.xml" target="_blank"></a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  How NeuroFedora provides software to its users
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2019-05-28T12:32:39+01:00">
+          <i class="fa fa-clock-o"></i>
+          Tue 28 May 2019
+        </li>
+        <li class="list-inline-item">
+          <i class="fa fa-folder-open-o"></i>
+          <a href="https://neurofedora.github.io/category/community/">Community</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fa fa-user-o"></i>
+              <a href="https://neurofedora.github.io/author/ankur-sinha.html">Ankur Sinha</a>          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+              <a href="https://neurofedora.github.io/tag/software-development/">#Software development</a>,               <a href="https://neurofedora.github.io/tag/rpm/">#RPM</a>,               <a href="https://neurofedora.github.io/tag/packaging/">#Packaging</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <p>Given the large chunk of updates that we published recently, we thought this is
+a good chance to explain how the <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> team stays on top of all of this
+software that is constantly being updated and improved.</p>
+<ol class="arabic">
+<li><p class="first">It all starts with <em>upstream</em> releasing a new version.</p>
+<p><em>Upstream</em> are the developers of the software. We at <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> (and most
+Linux distributions) are <em>downstream</em>: we take developed software, build and
+integrate it all, and provide it in easily installable <em>packages</em> to users.</p>
+<p>On Fedora, these packages are <code>rpm</code> archives, while other
+distributions use other file formats.</p>
+</li>
+<li><p class="first">The awesome <a class="reference external" href="https://github.com/release-monitoring/anitya">Anitya</a> tool
+that runs at <a class="reference external" href="https://release-monitoring.org">https://release-monitoring.org</a> detects an update, and files a
+bug notifying us of the new version.</p>
+<p>Here is an example bug that it filed to let us know that a new version of
+python-efel was now available:
+<a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1702573">https://bugzilla.redhat.com/show_bug.cgi?id=1702573</a></p>
+</li>
+</ol>
+<p>The next steps require manual work. There are tools to make it all easier, but
+this is where we humans come in.</p>
+<ol class="arabic" start="3">
+<li><p class="first">One of the <a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig">NeuroFedora package maintainers</a> notices the bug and
+begins to work on it.</p>
+</li>
+<li><p class="first">We fetch the new source code and test to see how it has changed in the new
+release.</p>
+<p>Sometimes, there are backward incompatible API/ABI changes. In such cases,
+we have to see how <em>all</em> other software that depends on these is affected.
+This is documented in the <a class="reference external" href="https://docs.fedoraproject.org/en-US/fesco/Updates_Policy/">community policy on updating software</a>. The idea is
+that when new versions of software are released, as package maintainers, one
+of our duties is to ensure that the new versions do not break existing
+systems for our users.</p>
+</li>
+<li><p class="first">If everything seems to work fine, we update the spec file.</p>
+<p><em>spec</em> files include instructions that tell the <code>rpmbuild</code> tool how
+to build the software, and where all its files should go in the <code>rpm</code>
+package. More information on the process can be found <a class="reference external" href="https://fedoraproject.org/wiki/Category:Package_Maintainers#Introduction_to_packaging">here</a>.</p>
+</li>
+<li><p class="first">We push the updated spec file to the package's dist-git repository on
+<a class="reference external" href="https://src.fedoraproject.org/rpms/">https://src.fedoraproject.org/rpms/</a>.</p>
+</li>
+<li><p class="first">We then queue up a new build on the <a class="reference external" href="https://koji.fedoraproject.org/koji/">Koji build system</a>.</p>
+<p>The build system handles all our supported arches unless told not to do so.
+Currently, the Fedora community supports: <code>x86_64, i686, armv7hl,
+aarch64, ppc64le, s390x</code>. More information on these architectures can be
+found <a class="reference external" href="https://fedoraproject.org/wiki/Architectures">here</a>.</p>
+</li>
+<li><p class="first">Once the builds have completed successfully, we push the builds to our
+<a class="reference external" href="https://fedoraproject.org/wiki/QA">Quality Assurance</a> pipeline for
+testing.</p>
+<p>It isn't enough to get the software to build correctly. We must
+also ensure that it <em>works</em> correctly.  The pipeline lets community members
+(including users) <em>test</em> these updated packages in a <em>staging repository</em>.</p>
+<p><em>You can help test these updates.</em> All you need to do is install them, and
+provide feedback. This is all explained <a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing">here</a>.</p>
+</li>
+<li><p class="first">If the packages pass the community's battery of automated checks, and
+testers provide positive feedback on their functioning, they are then moved
+from the staging repositories to the <em>stable</em> repositories where they are
+available to all users.</p>
+</li>
+</ol>
+<hr class="docutils" />
+<p><a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help">here</a>.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.</p>
+
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://neurofedora.github.io/drafts/how-neurofedora-provides-software-to-its-users.html';
+      this.page.identifier = 'how-neurofedora-provides-software-to-its-users';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//neurofedora.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://docs.fedoraproject.org/en-US/project/code-of-conduct/">Code of Conduct</a></li>
+      <li class="list-inline-item"><a href="https://neurofedora.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://neurofedora.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://neurofedora.github.io/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://neurofedora.github.io/tags.html">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    All content on this blog is made available under <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode" targget="_blank">CC-By-SA 4.0</a> unless specifically noted | Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+</body>
+
+</html>

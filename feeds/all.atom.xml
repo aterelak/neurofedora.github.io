@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-03-25T11:18:32+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 13</title><link href="https://neurofedora.github.io/2019/03/25/neurofedora-update-2019-week-13.html" rel="alternate"></link><published>2019-03-25T11:18:32+00:00</published><updated>2019-03-25T11:18:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-03-25:/2019/03/25/neurofedora-update-2019-week-13.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 13th week of 2019: more software
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-05-28T11:29:33+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 22</title><link href="https://neurofedora.github.io/2019/05/28/neurofedora-update-2019-week-22.html" rel="alternate"></link><published>2019-05-28T11:29:33+01:00</published><updated>2019-05-28T11:29:33+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-05-28:/2019/05/28/neurofedora-update-2019-week-22.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 22nd week of 2019: more software
+updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;An update on what we have been up to at &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is long &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/232"&gt;overdue&lt;/a&gt;!
+In the last few weeks, all of these were updated to their latest versions and
+are now available to &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; users:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-missingno"&gt;python-missingno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-nineml"&gt;python-nineml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-dipy"&gt;python-dipy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pybids"&gt;python-pybids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-brian2"&gt;python-brian2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pymatreader"&gt;python-pymatreader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pysb"&gt;python-pysb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-libNeuroML"&gt;python-libNeuroML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-efel"&gt;python-efel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-petlink"&gt;python-petlink&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-grabbit"&gt;python-grabbit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-xnat"&gt;python-xnat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-chaospy"&gt;python-chaospy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-nilearn"&gt;python-nilearn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pynwb-"&gt;python-pynwb-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-hdfs"&gt;python-hdfs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The contain various bug fixes and enhancements. Please update your system to
+the latest versions using &lt;cite&gt;dnf&lt;/cite&gt;. You can also use the graphical package manager
+that you prefer. &lt;cite&gt;dnf&lt;/cite&gt;, however, will work on all installations (apart from
+&lt;a class="reference external" href="https://silverblue.fedoraproject.org/"&gt;Silverblue&lt;/a&gt; which is rpm-ostree based.).&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo dnf update --refresh
+&lt;/pre&gt;
+&lt;p&gt;As I write this post, the newest version of &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/vxl"&gt;VXL&lt;/a&gt; is building on the system. This
+took quite a bit of work to update but that is a story for another day :)&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Software"></category></entry><entry><title>NeuroFedora update: 2019 week 13</title><link href="https://neurofedora.github.io/2019/03/25/neurofedora-update-2019-week-13.html" rel="alternate"></link><published>2019-03-25T11:18:32+00:00</published><updated>2019-03-25T11:18:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-03-25:/2019/03/25/neurofedora-update-2019-week-13.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 13th week of 2019: more software
 updates, future plans, next team meeting.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
 &lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
