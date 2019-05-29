@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-05-28T11:29:33+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora update: 2019 week 22</title><link href="https://neurofedora.github.io/2019/05/28/neurofedora-update-2019-week-22.html" rel="alternate"></link><published>2019-05-28T11:29:33+01:00</published><updated>2019-05-28T11:29:33+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-05-28:/2019/05/28/neurofedora-update-2019-week-22.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 22nd week of 2019: more software
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-05-29T10:22:17+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Fedora science/research get together at Flock</title><link href="https://neurofedora.github.io/2019/05/29/fedora-science-research-get-together-at-flock.html" rel="alternate"></link><published>2019-05-29T10:22:17+01:00</published><updated>2019-05-29T10:22:17+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-05-29:/2019/05/29/fedora-science-research-get-together-at-flock.html</id><summary type="html">&lt;p class="first last"&gt;It is time we started preparing for &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This year, &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt; will be held in Budapest from August 8--11.
+As part of &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, we've already proposed a talk to discuss how Free/Open
+source software links very very well with Free/Open science. Please see the
+proposal here, and give feedback: &lt;a class="reference external" href="https://pagure.io/flock/issue/112"&gt;https://pagure.io/flock/issue/112&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Apart from that, given that a large number of community members congregate at
+&lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;, it may be a good chance to get together those of us that work in
+science/research and related areas. So, if you are planning to attend &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;
+and work in, or are interested in science/research, please drop a note at this
+tracker ticket: &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/242"&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/242&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If we have enough of us, we can look at proposing a hackathon also. The first
+round of CFPs for flock starts on June 1. So we won't make it for that. We
+should be able to make it for the second round on June 15, though.&lt;/p&gt;
+&lt;p&gt;Please, spread the word!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Flock"></category></entry><entry><title>NeuroFedora update: 2019 week 22</title><link href="https://neurofedora.github.io/2019/05/28/neurofedora-update-2019-week-22.html" rel="alternate"></link><published>2019-05-28T11:29:33+01:00</published><updated>2019-05-28T11:29:33+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-05-28:/2019/05/28/neurofedora-update-2019-week-22.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 22nd week of 2019: more software
 updates.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
 &lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
