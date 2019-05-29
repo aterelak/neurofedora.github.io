@@ -204,6 +204,7 @@ were quite quick to point out the issue.&lt;/li&gt;
 &lt;p&gt;We're going to continue packaging software one by one. We currently have 140
 tools on our &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?tags=S%3A+Needs+packaging"&gt;list&lt;/a&gt;,
 so it'll take some time before all of them are available in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
 welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
 We are happy to help you learn the skills needed to contribute to the project.
