@@ -1,5 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-05-29T10:22:17+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Fedora science/research get together at Flock</title><link href="https://neurofedora.github.io/2019/05/29/fedora-science-research-get-together-at-flock.html" rel="alternate"></link><published>2019-05-29T10:22:17+01:00</published><updated>2019-05-29T10:22:17+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-05-29:/2019/05/29/fedora-science-research-get-together-at-flock.html</id><summary type="html">&lt;p class="first last"&gt;It is time we started preparing for &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-06-06T11:55:58+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Keeping software in NeuroFedora up to date</title><link href="https://neurofedora.github.io/2019/06/06/keeping-software-in-neurofedora-up-to-date.html" rel="alternate"></link><published>2019-06-06T11:55:58+01:00</published><updated>2019-06-06T11:55:58+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-06-06:/2019/06/06/keeping-software-in-neurofedora-up-to-date.html</id><summary type="html">&lt;p class="first last"&gt;This post summarises the process that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; package
+maintainers follow to keep the software set up to date.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Given the large number of software updates we published recently, we thought
+this is a good chance to explain how the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team (and the Fedora
+package maintainers team in general) stays on top of all of this software that
+is constantly being updated and improved.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/PackageMaintainerFlowChart.png"&gt;&lt;img alt="Simplified schematic of the package maintenance workflow in Fedora" class="img-responsive" src="https://neurofedora.github.io/images/PackageMaintainerFlowChart.png" style="width: 50%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As the (simplified) figure shows, there is a well defined process to ensure
+that we keep our software in good shape---updating it all in a timely manner.
+The &lt;a class="reference external" href="https://apps.fedoraproject.org"&gt;Fedora Infrastructure team&lt;/a&gt; maintains
+lots of tools to enable the community in this aspect too, and all of these
+tools continuously evolve as the community moves to newer directions.&lt;/p&gt;
+&lt;p&gt;In the sections below, we go over the process step by step.&lt;/p&gt;
+&lt;div class="section" id="upstream-releases-a-new-version"&gt;
+&lt;h2&gt;1. Upstream releases a new version&lt;/h2&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip.png"&gt;&lt;img alt="Screenshot: upstream releases a new version of indexed-gzip on Github" class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It all starts with &lt;em&gt;upstream&lt;/em&gt; releasing a new version.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Upstream&lt;/em&gt; are the developers of the software. We at &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; (and most
+Linux distributions) are &lt;em&gt;downstream&lt;/em&gt;: we take developed software, build and
+integrate it all, and provide it in easily installable &lt;em&gt;packages&lt;/em&gt; to users.&lt;/p&gt;
+&lt;p&gt;On Fedora, these packages are provided as &lt;code&gt;rpm&lt;/code&gt; archives via the
+repositories. Other distributions may use other formats.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="anitya-notifies-us-maintainers-via-bugzilla"&gt;
+&lt;h2&gt;2. Anitya notifies us maintainers via Bugzilla&lt;/h2&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip-anitya.png"&gt;&lt;img alt="Screenshot: Anitya detects the new version." class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip-anitya.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Anitya&lt;/strong&gt;  runs at &lt;a class="reference external" href="https://release-monitoring.org"&gt;https://release-monitoring.org&lt;/a&gt; and monitors upstream for
+new versions.  &lt;a class="reference external" href="https://github.com/release-monitoring/anitya"&gt;Anitya&lt;/a&gt; is
+able to monitor different upstream release methods such as Github, PyPi,
+Sourceforge, Gitlab, and so on.  When Anitya detects a new version it first
+checks to see what version of this software we are currently providing in
+Fedora. If it sees that the Fedora version is older than the new upstream
+version that it has detected, it files a bug on our community bug tracker at
+&lt;a class="reference external" href="https://bugzilla.redhat.com"&gt;https://bugzilla.redhat.com&lt;/a&gt; notifying the maintainers.&lt;/p&gt;
+&lt;p&gt;TIP: you can use the Fedora packages application at
+&lt;a class="reference external" href="https://apps.fedoraproject.org/packages"&gt;https://apps.fedoraproject.org/packages&lt;/a&gt; to search the full list of software
+that is currently included in Fedora. If you already know the name of the
+package, you can use &lt;code&gt;https://bugz.fedoraproject.org/&amp;lt;package name&amp;gt;&lt;/code&gt;
+(replace &lt;code&gt;&amp;lt;package name&amp;gt;&lt;/code&gt; with the name of the package, such as
+&lt;code&gt;nest&lt;/code&gt;) to go straight to a package's summary page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="maintainers-test-and-update-the-fedora-package"&gt;
+&lt;h2&gt;3. Maintainers test and update the Fedora package&lt;/h2&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip-bugzilla.png"&gt;&lt;img alt="Screenshot: Anitya files a bug notifying the maintainers" class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip-bugzilla.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Once the bug has been filed, the next steps require manual work. There are
+tools to make it all easier, but this is where we humans come in.&lt;/p&gt;
+&lt;p&gt;One of the &lt;a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig"&gt;NeuroFedora package maintainers&lt;/a&gt; notices the bug and begins
+to work on it. All notifications from bugzilla are sent to the &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/neuro-sig&amp;#64;lists.fedoraproject.org/"&gt;neuro-sig
+mailing list&lt;/a&gt;,
+so the team is usually always aware of these.&lt;/p&gt;
+&lt;p&gt;First, we fetch the new source code and test it to see how it has changed in
+the new release. Is it a minor release with bug-fixes and enhancements, or is
+it a major release where lots of functionality has changed?&lt;/p&gt;
+&lt;p&gt;Sometimes, especially with development libraries, there are API/ABI changes
+that make the new version incompatible with the older ones. In such cases, we
+have to see how &lt;em&gt;all&lt;/em&gt; other software that depends on these is affected.  This
+is documented in the &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/fesco/Updates_Policy/"&gt;community policy on updating software&lt;/a&gt;. The idea is
+that when new versions of software are released, as package maintainers, one of
+our duties is to ensure that the new versions do not break existing
+systems for our users.&lt;/p&gt;
+&lt;p&gt;If there is software that does not work with the latest versions, we
+maintainers try to help developers update their code. Here are some examples
+where we've notified maintainers:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/145"&gt;Neuron: use newer libstdc++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/113"&gt;Neuron: use a more recent SUNDIALS version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/vxl/vxl/issues/627"&gt;VXL: use newer openjpeg2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/vxl/vxl/issues/550"&gt;VXL: use newer DCMTK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When possible, we do try to provide patches and open pull requests. However,
+this depends on how much time we maintainers have and of course, it also
+depends on the complexity of the codebase.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NeuralEnsemble/libNeuroML/pull/86"&gt;libNeuroML: tweaks to manifest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/genesis-sim/genesis-2.4/pull/3"&gt;genesis: update scripts to use python3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In general, &lt;strong&gt;we try to stay as close to upstream as possible&lt;/strong&gt;. This page
+lists the advantages of doing so:
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/Staying_close_to_upstream_projects"&gt;https://fedoraproject.org/wiki/Staying_close_to_upstream_projects&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="a-maintainers-update-the-spec-file-and-build-new-rpms"&gt;
+&lt;h3&gt;3a. Maintainers update the spec file and build new rpms&lt;/h3&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip-sources.png"&gt;&lt;img alt="Screenshot: A package maintainer updates the *spec* file." class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip-sources.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If everything seems to work fine after we've managed to fix any issues, we
+begin to update the Fedora package. The first step here is to update the &lt;em&gt;spec&lt;/em&gt;
+file. The &lt;em&gt;spec&lt;/em&gt; file resides in the package's dist-git repository on
+&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/"&gt;https://src.fedoraproject.org/rpms/&lt;/a&gt; where other Fedora tools can access it.
+When this has been updated to build the newest release, we queue up a new build
+on the &lt;a class="reference external" href="https://koji.fedoraproject.org/koji/"&gt;Koji build system&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;spec&lt;/em&gt; files provide instructions that tell the &lt;code&gt;rpmbuild&lt;/code&gt; tool how to
+build the software, and where all its files should go in the &lt;code&gt;rpm&lt;/code&gt;
+package. More information on the process can be found &lt;a class="reference external" href="https://fedoraproject.org/wiki/Category:Package_Maintainers#Introduction_to_packaging"&gt;here&lt;/a&gt;.
+You can see a relatively simple &lt;em&gt;spec&lt;/em&gt; file for &lt;code&gt;python-indexed_gzip&lt;/code&gt; &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-indexed_gzip/blob/master/f/python-indexed_gzip.spec"&gt;here&lt;/a&gt;.
+&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/nest/blob/master/f/nest.spec"&gt;This one&lt;/a&gt;
+for the &lt;code&gt;nest&lt;/code&gt; simulator, however, is a lot more complex since we must
+build it with MPI support also. If you want to see a real scary &lt;em&gt;spec&lt;/em&gt; file,
+though, look at &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/texlive/blob/master/f/texlive.spec"&gt;this one&lt;/a&gt; for
+the &lt;code&gt;texlive&lt;/code&gt; package. It is auto generated from the &lt;a class="reference external" href="http://www.tug.org/texlive/"&gt;texlive&lt;/a&gt; sources, but you can imagine how hard it must
+be to debug.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip-koji.png"&gt;&lt;img alt="Screenshot: A package maintainer queues up a new build." class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip-koji.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The build system handles all our supported arches unless told not to do so.
+Currently, the Fedora community supports: &lt;code&gt;x86_64, i686, armv7hl,
+aarch64, ppc64le, s390x&lt;/code&gt;. More information on these architectures can be found
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/Architectures"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="quality-assurance-the-community-tests-the-updated-packages"&gt;
+&lt;h2&gt;4. Quality assurance: the community tests the updated packages&lt;/h2&gt;
+&lt;p&gt;Once the builds have completed successfully, we push the builds to our &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA"&gt;Quality
+Assurance&lt;/a&gt; pipeline for testing.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi.png"&gt;&lt;img alt="Screenshot: The Bodhi QA system manages our updates and their testing." class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It isn't enough to get the software to build correctly. We must also ensure
+that it &lt;em&gt;works&lt;/em&gt; correctly.  The pipeline lets community members (including
+users) &lt;em&gt;test&lt;/em&gt; these updated packages in a &lt;em&gt;staging repository&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can help test these updates.&lt;/em&gt; All you need to do is install them, and
+provide feedback. This is all explained &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi-ind.png"&gt;&lt;img alt="Screenshot: An update on Bodhi that has been pushed to stable." class="img-responsive" src="https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi-ind.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the packages pass the community's battery of automated checks, and testers
+provide positive feedback on their functioning, they are then moved from the
+staging repositories to the &lt;em&gt;stable&lt;/em&gt; repositories where they are available to
+all users.&lt;/p&gt;
+&lt;p&gt;These general steps are not limited to the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team. They are followed
+by all &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/project/#_what_is_fedora_all_about"&gt;Fedora community&lt;/a&gt;.
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/Join_the_package_collection_maintainers"&gt;package maintainers&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-community-uses-develops-extends-shares-their-work"&gt;
+&lt;h2&gt;5. The community uses/develops/extends/shares their work&lt;/h2&gt;
+&lt;p&gt;When all this is done and the packages available to install via the different
+package management tools (&lt;code&gt;dnf&lt;/code&gt;/Gnome-software/DNFDragora/Discover),
+other community members are able to use, develop, extend, share and do more
+with these tools.&lt;/p&gt;
+&lt;p&gt;I don't like to use the word &amp;quot;users&amp;quot; because unlike let's say Nvidia who is a
+&amp;quot;vendor&amp;quot; and provides software to its &amp;quot;users&amp;quot;, Fedora is a community with a
+large portion of people using our software also helping maintain and develop
+it. Everyone who uses Fedora is already a community member, for they help us
+achieve our goal---to spread Free/Open source software and awareness about it.
+This is perhaps worth a whole post in itself, though.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="join-the-community"&gt;
+&lt;h2&gt;Join the community!&lt;/h2&gt;
+&lt;p&gt;Since community projects aren't profit focussed, instead of money, the resource
+we most need is man-power. Each new contributor increases the sum total man-power
+possessed by the community and this enables us to work with more software, help
+more developers, improve all of this software in general---get more work done.&lt;/p&gt;
+&lt;p&gt;If you've gotten this far, you would have probably realised that there is quite
+a bit of work to be done, and there are ample opportunities where you can help
+in this area of &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;/Fedora.  You can:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;suggest software for inclusion&lt;/li&gt;
+&lt;li&gt;package and maintain software&lt;/li&gt;
+&lt;li&gt;test packaged software&lt;/li&gt;
+&lt;li&gt;file bugs and report issues&lt;/li&gt;
+&lt;li&gt;help maintain the tools that are required to keep the community ticking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information on all of this is included in our documentation &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/contributing/"&gt;here&lt;/a&gt;. The
+easiest way, though, is probably just to have a chat with the team. Catch us
+anytime on our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication channels&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Software development"></category><category term="RPM"></category><category term="Packaging"></category></entry><entry><title>Fedora science/research get together at Flock</title><link href="https://neurofedora.github.io/2019/05/29/fedora-science-research-get-together-at-flock.html" rel="alternate"></link><published>2019-05-29T10:22:17+01:00</published><updated>2019-05-29T10:22:17+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-05-29:/2019/05/29/fedora-science-research-get-together-at-flock.html</id><summary type="html">&lt;p class="first last"&gt;It is time we started preparing for &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;!&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
 &lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
 &lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
