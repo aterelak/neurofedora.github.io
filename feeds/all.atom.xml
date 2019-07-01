@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-06-06T11:55:58+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Keeping software in NeuroFedora up to date</title><link href="https://neurofedora.github.io/2019/06/06/keeping-software-in-neurofedora-up-to-date.html" rel="alternate"></link><published>2019-06-06T11:55:58+01:00</published><updated>2019-06-06T11:55:58+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-06-06:/2019/06/06/keeping-software-in-neurofedora-up-to-date.html</id><summary type="html">&lt;p class="first last"&gt;This post summarises the process that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; package
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-07-01T10:39:11+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>New badge, stickers, and software updates</title><link href="https://neurofedora.github.io/2019/07/01/new-badge-stickers-and-software-updates.html" rel="alternate"></link><published>2019-07-01T10:39:11+01:00</published><updated>2019-07-01T10:39:11+01:00</updated><author><name>NeuroFedora</name></author><id>tag:neurofedora.github.io,2019-07-01:/2019/07/01/new-badge-stickers-and-software-updates.html</id><summary type="html">&lt;p class="first last"&gt;In week 27 in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, the update includes: a new badge on
+&lt;a class="reference external" href="https://badges.fedoraproject.org/"&gt;Fedora badges&lt;/a&gt;, a new batch of stickers, and the usual updates on
+the software set.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="A Fedora badge for NeuroFedora contributors." class="img-responsive" src="https://neurofedora.github.io/images/20190701-neuro-fedora-badge.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&amp;quot;You are a member of the NeuroFedora SIG&amp;quot; badge by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt; and &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Blackfile"&gt;blackfile&lt;/a&gt; for &lt;a class="reference external" href="https://pagure.io/fedora-badges/issue/678"&gt;Fedora Badges #678&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This post departs from the usual template, mainly because we have new artwork
+to show off and so will, for once, not use the logo in this post.&lt;/p&gt;
+&lt;p&gt;I had only half jokingly suggested a &amp;quot;terminator panda&amp;quot; to give the badge a bit
+of a fun feel and was very pleasantly surprised when &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt; came up with a
+concept art! After an iteration or two, the &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Blackfile"&gt;blackfile&lt;/a&gt;'s concept that included
+the logo was merged with the panda terminator to give us the final one that's
+shown here.&lt;/p&gt;
+&lt;p&gt;For those who may not be aware, &amp;quot;&lt;a class="reference external" href="https://badges.fedoraproject.org/"&gt;Fedora badges&lt;/a&gt; is a fun website built to
+recognize contributors to the Fedora Project, help new and existing Fedora
+contributors find different ways to get involved, and encourage the improvement
+of Fedora's infrastructure.&amp;quot; You can learn about them more on the website's
+about page, &lt;a class="reference external" href="https://badges.fedoraproject.org/about"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, please &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/contributing/"&gt;join the team&lt;/a&gt;, do
+whatever interests you: software packaging, testing, designing, documentation
+writing, simply speak about Free Software, or absolutely anything that will
+help us make Science similarly Free for everyone. The current team is listed
+&lt;a class="reference external" href="https://pagure.io/group/neuro-sig"&gt;here in the Pagure neuro-sig group&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since we're going to present a poster at &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-quick"&gt;CNS*2019&lt;/a&gt;, and meet at &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;, we also &lt;a class="reference external" href="https://pagure.io/design/issue/627"&gt;requested&lt;/a&gt; the &lt;a class="reference external" href="https://fedoraproject.org/wiki/Design"&gt;Fedora Design team&lt;/a&gt; to make us a sticker that we could
+give out. They, of course, delivered---they always do! After a few iterations
+under &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Duffy"&gt;duffy&lt;/a&gt;'s guidance, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt;, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Terezahl"&gt;terezahl&lt;/a&gt;, and &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Asrootuser"&gt;asrootuser&lt;/a&gt; put forward ideas
+that resulted in this beauty:&lt;/p&gt;
+&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="The NeuroFedora sticker!" class="img-responsive" src="https://neurofedora.github.io/images/20190701-sticker.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;PNG version of the NeuroFedora sticker by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt;, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Terezahl"&gt;terezahl&lt;/a&gt;, and &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Asrootuser"&gt;asrootuser&lt;/a&gt; for &lt;a class="reference external" href="https://pagure.io/design/issue/627"&gt;Fedora Design #627&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;I've &lt;a class="reference external" href="https://www.stickermule.com/uk/artworks/3195402?token=caa3f965c743f145a3d15e133565452a"&gt;ordered a batch of stickers off Stickermule&lt;/a&gt;
+already. Since the artwork is now part of Stickermule's catalogue, I can also
+easily re-order more in the future. I &lt;em&gt;think&lt;/em&gt; others can too, but I'm not sure.
+In any case, the sources for the stickers, like our logo are on &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/blob/master/f/Artwork"&gt;here on our
+Pagure repository&lt;/a&gt;. In the
+future, depending on how much funding we can gather, we may even be able to
+send stickers to folks. For the moment, though, we'll only give them out to
+people we meet at conferences to save on postage.&lt;/p&gt;
+&lt;p&gt;(Please read through the &lt;a class="reference external" href="https://fedoraproject.org/wiki/Legal:Trademark_guidelines"&gt;Trademark Guidelines&lt;/a&gt; before using and
+sharing any Fedora related content, by the way.)&lt;/p&gt;
+&lt;p&gt;At the end of the post, here the usual short update on the state of software in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-elephant"&gt;python-elephant&lt;/a&gt; is
+now included in the Fedora repositories.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pylatex"&gt;python-PyLaTeX&lt;/a&gt; also.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-neurosynth"&gt;python-neurosynth&lt;/a&gt;
+was also added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're still working on including more tools. NEST 2.18.0 &lt;a class="reference external" href="https://github.com/nest/nest-simulator/releases/tag/v2.18.0"&gt;was recently released&lt;/a&gt; so we'll
+update that soon also. Still &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Needs+packaging"&gt;quite a queue for us to work through&lt;/a&gt;,
+but we're making steady progress!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Fedora badges"></category><category term="Stickermule"></category><category term="GENESIS"></category><category term="Python"></category><category term="Elephant"></category><category term="Neurosynth"></category><category term="PyLaTeX"></category></entry><entry><title>Keeping software in NeuroFedora up to date</title><link href="https://neurofedora.github.io/2019/06/06/keeping-software-in-neurofedora-up-to-date.html" rel="alternate"></link><published>2019-06-06T11:55:58+01:00</published><updated>2019-06-06T11:55:58+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-06-06:/2019/06/06/keeping-software-in-neurofedora-up-to-date.html</id><summary type="html">&lt;p class="first last"&gt;This post summarises the process that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; package
 maintainers follow to keep the software set up to date.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Given the large number of software updates we published recently, we thought
 this is a good chance to explain how the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team (and the Fedora
