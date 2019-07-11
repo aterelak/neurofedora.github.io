@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-07-01T10:39:11+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>New badge, stickers, and software updates</title><link href="https://neurofedora.github.io/2019/07/01/new-badge-stickers-and-software-updates.html" rel="alternate"></link><published>2019-07-01T10:39:11+01:00</published><updated>2019-07-01T10:39:11+01:00</updated><author><name>NeuroFedora</name></author><id>tag:neurofedora.github.io,2019-07-01:/2019/07/01/new-badge-stickers-and-software-updates.html</id><summary type="html">&lt;p class="first last"&gt;In week 27 in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, the update includes: a new badge on
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neurofedora.github.io/" rel="alternate"></link><link href="https://neurofedora.github.io/feeds/all.atom.xml" rel="self"></link><id>https://neurofedora.github.io/</id><updated>2019-07-11T13:25:47+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora poster at CNS*2019</title><link href="https://neurofedora.github.io/2019/07/11/neurofedora-poster-at-cns-2019.html" rel="alternate"></link><published>2019-07-11T13:25:47+01:00</published><updated>2019-07-11T13:25:47+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neurofedora.github.io,2019-07-11:/2019/07/11/neurofedora-poster-at-cns-2019.html</id><summary type="html">&lt;p class="first last"&gt;Our poster for &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-quick"&gt;CNS*2019&lt;/a&gt; is ready!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;With &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-quick"&gt;CNS*2019&lt;/a&gt; around the &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-calendar"&gt;corner&lt;/a&gt;, we worked on getting the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; poster ready for the poster presentation session. Our poster is
+&lt;strong&gt;P96&lt;/strong&gt;, on the first poster session on &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-poster-presentation-guide#14"&gt;the 14th of July&lt;/a&gt;. The poster
+is also shown below:&lt;/p&gt;
+&lt;center&gt;
+    &lt;object data="https://neurofedora.github.io/extra/2019-CNS-NeuroFedora.pdf" type="application/pdf" width="80%" height="800"&gt;
+      Your browser does not support previewing PDF files.
+      Please &lt;a href="https://neurofedora.github.io/extra/2019-CNS-NeuroFedora.pdf"&gt;download&lt;/a&gt; the file to view it.
+    &lt;/object&gt;
+&lt;/center&gt;&lt;p&gt;The poster is made available under a &lt;a class="reference external" href="https://creativecommons.org/licenses/by/4.0/"&gt;CC-By license&lt;/a&gt;. Please feel free to share it
+around.&lt;/p&gt;
+&lt;p&gt;The current team already consists of more people than the authors listed on the
+poster. The authors here were only the first set, and as the team grows, so
+will our author list for future publications. In general, we follow the
+standard rule: if one has contributed to the project since the previous
+publication, they get their name on the poster.&lt;/p&gt;
+&lt;p&gt;Unfortunately, this time, no one from the team is able to attend the
+conference, but if you are there and want to learn more about &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;,
+please get in touch with us using any of our communication channels.&lt;/p&gt;
+&lt;p&gt;To everyone that will be in Barcelona for the conference, we hope you have a
+fruitful one, and of course, we hope you are able to make some time to rest at
+the beach too.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="CNS*2019"></category></entry><entry><title>New badge, stickers, and software updates</title><link href="https://neurofedora.github.io/2019/07/01/new-badge-stickers-and-software-updates.html" rel="alternate"></link><published>2019-07-01T10:39:11+01:00</published><updated>2019-07-01T10:39:11+01:00</updated><author><name>NeuroFedora</name></author><id>tag:neurofedora.github.io,2019-07-01:/2019/07/01/new-badge-stickers-and-software-updates.html</id><summary type="html">&lt;p class="first last"&gt;In week 27 in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, the update includes: a new badge on
 &lt;a class="reference external" href="https://badges.fedoraproject.org/"&gt;Fedora badges&lt;/a&gt;, a new batch of stickers, and the usual updates on
 the software set.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
