@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2019-11-05T10:12:03+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>NeuroFedora Computational Neuroscience ISO image is now available</title><link href="https://neuroblog.fedoraproject.org/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html" rel="alternate"></link><published>2019-11-05T10:12:03+00:00</published><updated>2019-11-05T10:12:03+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-05:/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html</id><summary type="html">&lt;p class="first last"&gt;As our first deliverable, a ready to use/install ISO containing
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2019-11-13T11:37:58+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Neuroscience planets have moved</title><link href="https://neuroblog.fedoraproject.org/2019/11/13/neuroscience-planets-have-moved.html" rel="alternate"></link><published>2019-11-13T11:37:58+00:00</published><updated>2019-11-13T11:37:58+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-13:/2019/11/13/neuroscience-planets-have-moved.html</id><summary type="html">&lt;p class="first last"&gt;The two Neuroscience planets have moved to the NeuroFedora URL space.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;Just a short notification that the two neuroscience planets have moved to the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; URL space. They can now be found at:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"&gt;Planet Neuroscientists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscience/"&gt;Planet Neuroscience&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The planet instances on my personal space will remain functional for the next
+few weeks till the end of November, after which I'll stop updating them. Please
+update your links/bookmarks. Since this is all hosted on Github pages, setting
+up permanent redirects is not easy but we'll see what we can do.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"&gt;Planet Neuroscientists&lt;/a&gt; collects RSS feeds from various neuroscience blogs
+and web-sites. This is a good read for non-experts. &lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscience/"&gt;Planet Neuroscience&lt;/a&gt;, on
+the other hand, collects RSS feeds from various publication sources. So, the
+main content here will consists of peer-reviewed publications and pre-prints.
+They are updated twice a day at the moment, which seems to work well enough.&lt;/p&gt;
+&lt;p&gt;You can add both these to your RSS feed reader by using the &amp;quot;Feeds&amp;quot; drop-down
+in the top right hand corner. You can also download the complete blog-roll
+there and choose individual feeds to add.&lt;/p&gt;
+&lt;p&gt;These are both hosted on the &lt;a class="reference external" href="https://github.com/neurofedora"&gt;NeuroFedora Github space&lt;/a&gt;. You can suggest more feeds to be added to
+the planets too, either by opening an issue/pull request in the Github source
+repositories, or by getting in touch with the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team via any of our
+&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication channels&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Venus"></category><category term="Planet"></category><category term="RSS"></category></entry><entry><title>NeuroFedora Computational Neuroscience ISO image is now available</title><link href="https://neuroblog.fedoraproject.org/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html" rel="alternate"></link><published>2019-11-05T10:12:03+00:00</published><updated>2019-11-05T10:12:03+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-05:/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html</id><summary type="html">&lt;p class="first last"&gt;As our first deliverable, a ready to use/install ISO containing
 computational neuroscience tools is now available! You can get it
 &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/install-media/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
