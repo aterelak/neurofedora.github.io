@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2019-11-13T11:37:58+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Neuroscience planets have moved</title><link href="https://neuroblog.fedoraproject.org/2019/11/13/neuroscience-planets-have-moved.html" rel="alternate"></link><published>2019-11-13T11:37:58+00:00</published><updated>2019-11-13T11:37:58+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-13:/2019/11/13/neuroscience-planets-have-moved.html</id><summary type="html">&lt;p class="first last"&gt;The two Neuroscience planets have moved to the NeuroFedora URL space.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2019-12-08T12:14:11+00:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Updated NeuroFedora Computational Neuroscience ISO image available</title><link href="https://neuroblog.fedoraproject.org/2019/12/08/updated-neurofedora-computational-neuroscience-iso-image-available.html" rel="alternate"></link><published>2019-12-08T12:14:11+00:00</published><updated>2019-12-08T12:14:11+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-12-08:/2019/12/08/updated-neurofedora-computational-neuroscience-iso-image-available.html</id><summary type="html">&lt;p class="first last"&gt;An updated ready to use ISO image with Computational Neuroscience
+software is now available. It now includes Julia and R.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We've been working on making more software available in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/neuron"&gt;Neuron&lt;/a&gt;
+is now built with &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/iv"&gt;IV&lt;/a&gt; support, so models from &lt;a class="reference external" href="https://senselab.med.yale.edu/ModelDB/"&gt;ModelDB&lt;/a&gt; that use these should
+now be runnable using &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://neuroblog.fedoraproject.org/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html"&gt;Computational Neuroscience ISO image&lt;/a&gt;
+has been updated to include these improvements. After receiving some feedback,
+we've also added Julia and R to the image. The new version, 20191201, is
+available for download &lt;a class="reference external" href="https://fedorapeople.org/groups/neuro-sig/"&gt;here&lt;/a&gt;.
+The checksum file is also provided. So please test your download for
+correctness before you proceed to use it.&lt;/p&gt;
+&lt;p&gt;On a Linux system, please download both files (ISO and CHECKSUM), and run the
+following command in a terminal, in the directory where the files were
+downloaded, to verify the downloaded ISO:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sha256sum -c Fedora-31-Comp-Neuro-20191201-1-x86_64-CHECKSUM
+&lt;/pre&gt;
+&lt;div class="section" id="other-updates"&gt;
+&lt;h2&gt;Other updates&lt;/h2&gt;
+&lt;p&gt;In the meantime, we continue to package more software from our (rather long)
+&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=F%3A+Computational+neuroscience"&gt;list&lt;/a&gt;.
+&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/jlems"&gt;jLEMS&lt;/a&gt; is now in testing; &lt;a class="reference external" href="https://github.com/arbor-sim/arbor"&gt;Arbor&lt;/a&gt; is in ready for &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1780906"&gt;review&lt;/a&gt;; &lt;a class="reference external" href="http://napari.org/"&gt;Napari&lt;/a&gt; is being
+&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/305"&gt;worked upon&lt;/a&gt;; along with
+a bunch of other tools. Help is always welcome. So if you'd have the software
+development skills required to build tools from source or would like to
+develop these, please get in touch with us!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="neurofedora-at-fosdem"&gt;
+&lt;h2&gt;NeuroFedora at FOSDEM&lt;/h2&gt;
+&lt;p&gt;We've submitted an abstract to the &lt;a class="reference external" href="https://fosdem.org/2020/schedule/track/open_research_tools_and_technologies/"&gt;Open Research Tools and Technologies
+Devroom&lt;/a&gt;
+at FOSDEM which will be held Brussels on February 1 and 2. There will also be
+general Fedora presence at the event, with a booth too. You can learn more
+about Fedora at FOSDEM &lt;a class="reference external" href="https://fedoraproject.org/wiki/FOSDEM_2020"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please get in touch with the people listed on the event page for more
+information on Fedora at FOSDEM. For &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; specific inquiries, you can
+contact &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Major"&gt;major&lt;/a&gt; who is the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team member organising our presence at the event (or ping the team
+on our communication channels).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="where-we-need-help"&gt;
+&lt;h2&gt;Where we need help&lt;/h2&gt;
+&lt;p&gt;There's always lots to do. Here's a short list of where we need help:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;including new software: &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues"&gt;https://pagure.io/neuro-sig/NeuroFedora/issues&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;using and testing the software, to ensure that it works correctly: just
+download the ISO or install tools and use them, and &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/quick-docs/howto-file-a-bug/"&gt;file bugs if (when,
+rather) you find them&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;keeping our &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;documentation&lt;/a&gt; up to date:
+documentation is paramount, so we need to keep it up to date,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I won't list the skills that these tasks need, because we're not simply looking
+for people who have them already. We are looking for people who'd like to
+promote Open Science, and we will help them learn the skills.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="News"></category><category term="Computational Modelling"></category><category term="GENESIS"></category><category term="NEST"></category><category term="Neuron"></category><category term="Julia"></category><category term="R"></category></entry><entry><title>Neuroscience planets have moved</title><link href="https://neuroblog.fedoraproject.org/2019/11/13/neuroscience-planets-have-moved.html" rel="alternate"></link><published>2019-11-13T11:37:58+00:00</published><updated>2019-11-13T11:37:58+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-13:/2019/11/13/neuroscience-planets-have-moved.html</id><summary type="html">&lt;p class="first last"&gt;The two Neuroscience planets have moved to the NeuroFedora URL space.&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
 &lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
 &lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
