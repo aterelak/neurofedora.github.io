@@ -581,7 +581,7 @@ package, you can use &lt;code&gt;https://bugz.fedoraproject.org/&amp;lt;package 
 &lt;p&gt;Once the bug has been filed, the next steps require manual work. There are
 tools to make it all easier, but this is where we humans come in.&lt;/p&gt;
 &lt;p&gt;One of the &lt;a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig"&gt;NeuroFedora package maintainers&lt;/a&gt; notices the bug and begins
-to work on it. All notifications from bugzilla are sent to the &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/neuro-sig&amp;#64;lists.fedoraproject.org/"&gt;neuro-sig
+to work on it. All notifications from bugzilla are sent to the &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/neurofedora&amp;#64;lists.fedoraproject.org/"&gt;neuro-sig
 mailing list&lt;/a&gt;,
 so the team is usually always aware of these.&lt;/p&gt;
 &lt;p&gt;First, we fetch the new source code and test it to see how it has changed in
