@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2020-04-28T15:05:00+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Fedora 32 Computational Neuroscience ready-to-install ISO image is now available!</title><link href="https://neuroblog.fedoraproject.org/2020/04/28/fedora-32-computational-neuroscience-ready-to-install-iso-image-is-now-available.html" rel="alternate"></link><published>2020-04-28T15:05:00+01:00</published><updated>2020-04-28T15:05:00+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2020-04-28:/2020/04/28/fedora-32-computational-neuroscience-ready-to-install-iso-image-is-now-available.html</id><summary type="html">&lt;p class="first last"&gt;Fedora 32 was released today, and so was the NeuroFedora
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2020-05-17T23:38:51+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Open positions: NeuroFedora is looking for trainees</title><link href="https://neuroblog.fedoraproject.org/2020/05/17/open-positions-neurofedora-is-looking-for-trainees.html" rel="alternate"></link><published>2020-05-17T23:38:51+01:00</published><updated>2020-05-17T23:38:51+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2020-05-17:/2020/05/17/open-positions-neurofedora-is-looking-for-trainees.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is looking to increase the team to get more work done.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Teamwork by Perry Grone on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200517.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;perrygrone?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText"&gt;Perry Grone&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/teamwork?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;After the recent release of the &lt;a class="reference external" href="https://labs.fedoraproject.org/en/comp-neuro"&gt;Computational Neuroscience installable OS
+image&lt;/a&gt;, the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team
+is looking to work on to the next set of deliverables. For this, we need to
+expand the team.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I want to note that we are not only looking for people that may already have
+the necessary skills. We are looking for anyone interested in working in these
+areas that would perhaps like to acquire the required skills. We will teach the
+skills that we can, and where we cannot, we will involve experienced members of
+the Free/Open Source software community to help us. All one really needs is a
+few hours a week of free time.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We are looking for people interested in:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Scientific communication, marketing, outreach, and community engagement:&lt;ul&gt;
+&lt;li&gt;To spread information on the staggering amount of Free/Open Source Software
+that is available for Neuroscience to researchers and the community in
+general,&lt;/li&gt;
+&lt;li&gt;To disseminate the progress that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team makes regularly to
+the community.&lt;/li&gt;
+&lt;li&gt;To just generally monitor our various communication channels to answer
+queries and participate in discussions with the team and users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Software development:&lt;ul&gt;
+&lt;li&gt;There are still about &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues"&gt;200 tools&lt;/a&gt; to include in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, so still lots of work to do here. Some tools related to
+computational neuroscience remain, so we are working on those. However, we
+want to start making some headway on the next deliverable that will be
+focussed on neuroimaging and data analysis. Not only do we need to build
+these tools from source, we also need to test them regularly, and push new
+versions to our users when developers make new releases.&lt;/li&gt;
+&lt;li&gt;We also want to provide easy to use containers for all the tools that we
+are including in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Neuro-imaging and data analysis in Neuroscience:&lt;ul&gt;
+&lt;li&gt;A lot of tools on our list are related to Neuro-imaging and data analysis.
+To effectively integrate these with the rest of &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, we need more
+people with domain knowledge. If you work these areas or want to work in
+them and would like to learn more about these tools, &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is a
+great informal environment to start in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is common knowledge that joining Free/Open source communities is an excellent
+way to pick up skills and experience. So, I especially encourage students to
+join one, even if it is not &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also have first hand experience of how busy a PhD candidate can get, but in
+my experience I also found it possible to free up a few hours a week to work on
+developing general skills that one may not necessarily be able to learn from
+daily research work. So, I also strongly encourage undergraduate/postgraduate
+research students and Ph.D. candidates to do the same.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;Get in touch with us today!&lt;/a&gt;&lt;/p&gt;
+</content><category term="Community"></category><category term="Trainees"></category><category term="Team"></category><category term="Open positions"></category></entry><entry><title>Fedora 32 Computational Neuroscience ready-to-install ISO image is now available!</title><link href="https://neuroblog.fedoraproject.org/2020/04/28/fedora-32-computational-neuroscience-ready-to-install-iso-image-is-now-available.html" rel="alternate"></link><published>2020-04-28T15:05:00+01:00</published><updated>2020-04-28T15:05:00+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2020-04-28:/2020/04/28/fedora-32-computational-neuroscience-ready-to-install-iso-image-is-now-available.html</id><summary type="html">&lt;p class="first last"&gt;Fedora 32 was released today, and so was the NeuroFedora
 Computational Neuroscience ISO image! Download, install, and get to
 work!&lt;/p&gt;
 </summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
